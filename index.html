@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Critical Error</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="overlay"></div>
+    <div class="modal">
+        <div class="warning-icon">⚠️</div>
+        <h1>ERRO DE SISTEMA</h1>
+        <p>O kernel do seu dispositivo foi comprometido. O módulo de segurança <span class="highlight">Knox-Core</span> foi desativado.</p>
+        <div class="status-box">
+            <p id="status-text">Verificando integridade...</p>
+            <div class="progress-bar"><div id="progress"></div></div>
+        </div>
+        <button id="btn-fix" class="btn-hidden">REPARAR AGORA</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
